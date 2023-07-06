@@ -35,14 +35,16 @@ http://localhost:3005/
 
 3. Desde postman puedes probar los siguentes endpoints:
 - localhost:3005/api/task
-- localhost:3005/api/task/create con el siguiente json
+- localhost:3005/api/task/create con el siguiente json:
+
 {
     "name":"Hacer el fron",
     "description" :"Realizar el fron de la aplicación de todolist"
 }
-localhost:3005/api/task/'id'
-localhost:3005/api/task/delete/'id'
-localhost:3005/api/task/update/'id'
+- localhost:3005/api/task/'id'
+- localhost:3005/api/task/delete/'id'
+- localhost:3005/api/task/update/'id':
+
 {
     "name":"Probar endpoinsts",
     "description" :"Probar los endpoinsts presentes en la aplicación de todo lsit"
