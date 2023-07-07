@@ -12,6 +12,12 @@ const TaskSchema = new Schema ({
         require: true,
         maxLength : 500
 
+    },
+    priority: {
+        type: String,
+        require: true,
+        maxLength: 100
+
     }
 })
 module.exports = mongoose.model('Task', TaskSchema)

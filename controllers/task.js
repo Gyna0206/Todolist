@@ -5,9 +5,11 @@ const controllerTask={
         try {
             const name = req.body.name
             const description = req.body.description
+            const priority = req.body.priority
             await Task.create({
                 name: name,
-                description : description
+                description : description,
+                priority : priority
             })
             res.json({msg:'created'})
         } catch (error) {
@@ -38,10 +40,13 @@ const controllerTask={
                 const {id} = req.params
                 const name = req.body.name
                 const description = req.body.description
+                const priority = req.body.priority
                 await Task.findByIdAndUpdate(id,
                     {
                     name:name,
-                    description : description
+                    description : description,
+                    priority : priority
+
                     })
                     res.json({msg:'update'})
             } catch (error) {
