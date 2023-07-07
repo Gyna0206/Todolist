@@ -28,8 +28,10 @@ Este proyecto es una API RESTful desarrollada con Express.js que permite realiza
 ## Uso 
 1. Inicia la aplicación: 
 
-```node. index.js
 ```
+node. index.js
+```
+
 
 2. Accede al Hola mundo. 
 
@@ -39,20 +41,26 @@ http://localhost:3005/
 - localhost:3005/api/task
 - localhost:3005/api/task/create con el siguiente json:
 
-```{
+```
+{
     "name":"Hacer el fron",
     "description" :"Realizar el fron de la aplicación de todolist"
     "prioriy" : "Urgente"
-}```
+}
+```
+
 - localhost:3005/api/task/'id'
 - localhost:3005/api/task/delete/'id'
 - localhost:3005/api/task/update/'id':
 
-```{
+
+```
+{
     "name":"Probar endpoinsts",
     "description" :"Probar los endpoinsts presentes en la aplicación de todo list"
     "priority": "importante"
-}```
+}
+```
 
 
 ## Autors
