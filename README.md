@@ -23,13 +23,20 @@ Este proyecto es una API RESTful desarrollada con Express.js que permite realiza
 ## Instalación
 1. Clona este repositorio en tu maquina local
 2. Navega al directorio del proyecto
-3. Instala las dependencias necesarias
+3. Instala las dependencias necesarias:
+
+```
+npm init
+npm install dotenv
+npm install mongoose
+```
+
 
 ## Uso 
 1. Inicia la aplicación: 
 
 ```
-node. index.js
+node index.js
 ```
 
 
