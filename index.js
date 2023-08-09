@@ -1,9 +1,11 @@
 const express = require('express')
+const cors = require('cors')
 const mongoose = require('mongoose')
 require('dotenv').config()
 
 const taskRoutes= require ('./routers/task')
-const app = express()
+const app = express();
+app.use(cors());
 const port = 3005
 app.set('port',port)
 app.use(express.json())
